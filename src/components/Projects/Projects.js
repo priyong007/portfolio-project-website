@@ -173,13 +173,13 @@ function Projects() {
             >
               Mobile
             </button>
-            <button
+            {/* <button
               className={filter === "iot" ? "btn-active" : "btn-inactive"}
               onClick={() => setFilter("iot")}
               style={{ pointerEvents: "auto", cursor: "pointer" }}
             >
               IoT / AI
-            </button>
+            </button> */}
           </div>
         </div>
 
