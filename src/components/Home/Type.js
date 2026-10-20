@@ -8,7 +8,7 @@ function Type() {
         strings: [
           "Tech Enthusiast / Explorer",
           "Software Developer",
-          "Mobile App Developer - Flutter / React Native / Kotlin",
+          "Mobile App Developer - JavaScript/ TypeScript / React / NextJs ",
           "Full Stack Developer - MERN Stack",
         ],
         autoStart: true,
