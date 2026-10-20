@@ -4,69 +4,64 @@ import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 
 // Import project images
-import gym from "../../Assets/Projects/gym.png";
+import DevStack from "../../Assets/Projects/dev stack.png";
 import carental from "../../Assets/Projects/car.png";
 import bizzup from "../../Assets/Projects/bizz.png";
-import Eventz from "../../Assets/Projects/event.png";
-import flyfish from "../../Assets/Projects/fly.png";
+import bazardar from "../../Assets/Projects/bazardor.png";
 import Wres from "../../Assets/Projects/WN Resturants.png";
 import Mres from "../../Assets/Projects/Resturant mobile.png";
 import dreamz from "../../Assets/Projects/wed.png";
-import Qr from "../../Assets/Projects/qr scanner.png";
 import travel from "../../Assets/Projects/travel.png";
-import treasurer from "../../Assets/Projects/treeasurer hunter.png";
 import flight from "../../Assets/Projects/flight app.png";
-import note from "../../Assets/Projects/noteapp.png";
-import cal from "../../Assets/Projects/cal5.jpg";
-import aura from "../../Assets/Projects/aura.png";
-import libracore from "../../Assets/Projects/libracore.png";
+import bookvibe from "../../Assets/Projects/bookVibe.png";
+import bpl from "../../Assets/Projects/portbpl.png";
+import fitLog from "../../Assets/Projects/fitLog.png";
+
 
 function Projects() {
   // Project data in an array with tags (web / mobile)
   const projects = [
     {
-      imgPath: aura,
-      title: "Aura - Greenhouse AI Monitoring System",
-      description: "Developed an intelligent IoT-based greenhouse monitoring system that collects real-time environmental data using sensors and analyzes it using Google Gemini AI. The system provides recommendations, email summaries, TFT display monitoring, visual and audible alerts, and automated issue detection to optimize greenhouse conditions.",
-      ghLink: "https://github.com/ChaminduWn/Aura",
-      type: "iot",
+      imgPath: bpl,
+      title: "Premium Leauge Auction - Players Purchase System",
+      description: "A web application where users can browse available players, select the ones they want to buy, and manage their selections using in-game coins. The system validates the user’s remaining balance and prevents purchases when the available coins are insufficient.",
+      ghLink: "https://github.com/priyong007/bpl-players-purchase-project",
+      demoLink: "https://priyongbplcricktet.netlify.app/",
+      type: "web",
+      
     },
     {
-      imgPath: libracore,
-      title: "LibraCore - Library Management System",
-      description: "Developed a comprehensive library management platform supporting book inventory management, lending and borrowing operations, user management, transaction history tracking, and rental management. Implemented administrative features for managing books, users, and borrowing records efficiently.",
-      ghFrontend: "https://github.com/ChaminduWn/library_management_system_frontend",
-      ghBackend: "https://github.com/ChaminduWn/library_management_system_backend",
+      imgPath: fitLog,
+      title: "LibraCore - FitLog is workout Management System",
+      description: "FitLog is a workout management web application where users can explore workouts, add exercises to their daily workout plan, save workouts for later, and manage their selected exercises easily.",
+      ghLink: "https://github.com/priyong007/fit-log",
+      demoLink: "https://fit-log-delta-eight.vercel.app/",
       type: "web",
     },
     {
-      imgPath: note,
-      title: "Note App",
-      description: "Android application built with Kotlin that helps users manage tasks efficiently. It allows creating, editing, and deleting tasks, setting reminders with alarms, and includes a Pomodoro-style focus timer to boost productivity. Built using ConstraintLayout, RecyclerView, and CardView, it leverages SharedPreferences for state management and AlarmManager for notifications, ensuring a smooth and user-friendly experience on Android devices.",
-      ghLink: "https://github.com/ChaminduWn/Note-App",
+      imgPath: bookvibe,
+      title: "Book Vibe App",
+      description: "Book Vibe is a modern book collection and reading tracker built with Next.js. Users can browse books, view detailed information, add books to a reading list or wishlist, and remove them anytime.",
+      ghLink: "https://github.com/priyong007/book-vibe",
+      demoLink: "https://book-vibe-gamma-amber.vercel.app/",
       type: "mobile",
     },
     
     {
-      imgPath: Eventz,
-      title: "Event.lk",
-      description: "Online event management platform for businesses, built with Java, JSP-Servlets, HTML, CSS, JavaScript, and MySQL. Hosted on a Tomcat server and following the MVC architecture, it allows users to register, create events, and browse responsive event listings. The platform combines a user-friendly interface with dynamic interactivity, simplifying event planning and participation.",
-      ghLink: "https://github.com/ChaminduWn/Event.lk",
+      imgPath: bazardar,
+      title: "Super Shop App",
+      description: "BazarDor is a web-based market price tracking application that helps users explore daily prices of essential commodities in Bangladesh. Users can compare prices across different markets, view price changes over time, and make informed purchasing decisions.",
+      ghLink: "https://github.com/priyong007/bazar-dor",
+      demoLink: "https://bazar-dor-orpin.vercel.app/",
       type: "web",
     },
     {
-      imgPath: gym,
-      title: "CJ Gym & Fitness",
-      description: "MERN stack application that streamlines gym operations by managing members, schedules, staff, subscriptions, finances, inventory, and supplements. It also provides personalized coaching features to enhance member engagement and support business growth. Built with React, Node.js, Express, MongoDB, Tailwind CSS, Redux, and integrated with Firebase and Material UI, the system delivers a modern, responsive, and efficient gym management solution.",
-      ghLink: "https://github.com/inupaUdara/gym-management-system",
+      imgPath: DevStack,
+      title: "DevStack-app",
+      description: "DevStack-ap application that streamlines operations by managing stack. It also provides personalized add to stack , remove stack. Built with React, Tailwind CSS and integrated with Material UI, the system delivers a modern, responsive, and efficient stack management solution.",
+       ghLink: "https://github.com/priyong007/Assignment-5-DevStack-app",
+      demoLink: "https://assignment-5-devstack-app.netlify.app/",
       type: "web",
-    },
-    {
-      imgPath: flyfish,
-      title: "The Flying Fish Game",
-      description: "Android game developed with Kotlin where players control a fish to avoid obstacles and collect points. The game features animated touch controls, background music, collectible points, and a high score system. With intuitive gameplay and a game over screen displaying scores and replay options, it offers an engaging and fun mobile gaming experience.",
-      ghLink: "https://github.com/ChaminduWn/Android-Game-App",
-      type: "mobile",
     },
     
     {
@@ -74,6 +69,7 @@ function Projects() {
       title: "Car Rental App",
       description: "A Flutter-based mobile application for renting premium cars, integrated with Firebase Firestore for real-time data management. The app features a luxurious and responsive UI, structured with BLoC architecture, and supports cross-platform deployment on Android, iOS, and Web.",
       ghLink: "https://github.com/ChaminduWn/Car_Rental",
+      
       type: "mobile",
     },
     {
@@ -105,13 +101,7 @@ function Projects() {
       ghLink: "https://github.com/ChaminduWn/FairyTalePlanner",
       type: "web",
     },
-    {
-      imgPath: Qr,
-      title: "WN QR - QR Code Scanner",
-      description: "Flutter based mobile application that allows users to scan and generate QR codes with ease. The app supports various types of QR codes, including text, URLs, and contact information. It also provides features like sharing QR codes, saving scanned contact information, and opening URLs directly from the app.",
-      ghLink: "https://github.com/ChaminduWn/Qr-Scanner-Flutter",
-      type: "mobile",
-    },
+  
     {
       imgPath: travel,
       title: "Travel Management Learning Platform",
@@ -119,13 +109,7 @@ function Projects() {
       ghLink: "https://github.com/ChaminduWn/Travel-Management-Learning-Platform",
       type: "web",
     },
-    {
-      imgPath: treasurer,
-      title: "Treasurer Hunter",
-      description: "Python based game built using the Turtle graphics library, where players navigate a maze to collect eggs while avoiding enemies. Featuring arrow-key controls, interactive obstacles, and a scoring system, the game challenges players’ strategy and reflexes. Classes manage walls, player movement, enemies, and collectible eggs, providing a structured and engaging gameplay experience.",
-      ghLink: "https://github.com/ChaminduWn/Hidden-Treasure-Game",
-      type: "web",
-    },
+    
     {
       imgPath: flight,
       title: "Flight Booking Website",
@@ -133,13 +117,7 @@ function Projects() {
       ghLink: "https://github.com/ChaminduWn/Flight-App",
       type: "web",
     },
-    {
-      imgPath: cal,
-      title: "Calculator App",
-      description: "Android application built with Kotlin that performs basic arithmetic operations with a clean and intuitive interface. It supports addition, subtraction, multiplication, division, modulus, and decimal calculations, along with parentheses for complex expressions. The app includes error handling for invalid inputs and a clear button for convenience, using TableLayout, LinearLayout, and TextView for the UI and mxparser for expression evaluation",
-      ghLink: "https://github.com/ChaminduWn/Android-Calculator-App",
-      type: "mobile",
-    },
+    
   ];
 
   // State for search and filter

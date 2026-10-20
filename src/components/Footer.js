@@ -14,16 +14,16 @@ function Footer() {
     <Container fluid className="footer">
       <Row>
         <Col md="4" className="footer-copywright">
-          <h3>Designed and Developed by Chamindu WN</h3>
+          <h3>Designed and Developed by Priyongkar Chakma</h3>
         </Col>
         <Col md="4" className="footer-copywright">
-          <h3>Copyright © {year} CN</h3>
+          <h3>Copyright © {year} PC</h3>
         </Col>
         <Col md="4" className="footer-body">
           <ul className="footer-icons">
             <li className="social-icons">
               <a
-                href="https://github.com/ChaminduWn"
+                href="https://github.com/priyong007"
                 style={{ color: "white" }}
                 target="_blank" 
                 rel="noopener noreferrer"
@@ -33,7 +33,7 @@ function Footer() {
             </li>
             <li className="social-icons">
               <a
-                href="https://x.com/chamindu_wn"
+                href="https://x.com/PriyongkarC"
                 style={{ color: "white" }}
                 target="_blank" 
                 rel="noopener noreferrer"
@@ -43,7 +43,7 @@ function Footer() {
             </li>
             <li className="social-icons">
               <a
-                href="https://www.linkedin.com/in/chaminduwn/"
+                href="https://www.linkedin.com/in/priyongkar-chakma/"
                 style={{ color: "white" }}
                 target="_blank" 
                 rel="noopener noreferrer"
@@ -53,7 +53,7 @@ function Footer() {
             </li>
             <li className="social-icons">
               <a
-                href="https://www.instagram.com/chamindu_wn/"
+                href="https://www.instagram.com/priyongkarchakma/"
                 style={{ color: "white" }}
                 target="_blank" 
                 rel="noopener noreferrer"

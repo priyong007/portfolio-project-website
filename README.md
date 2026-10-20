@@ -1,8 +1,5 @@
 # 🌐 My Portfolio
 
-<img width="1353" height="632" alt="Screenshot 2025-10-01 124658" src="https://github.com/user-attachments/assets/ecad2dc6-89b7-471a-b21f-2d2cb0d49d70" />
-
-
 This is my personal **portfolio website** built with **React.js** and **Bootstrap**.  
 It showcases my skills, projects, and experience, and also includes my resume (PDF).  
 
@@ -37,10 +34,6 @@ portfolio/
 - ├── package.json
 - └── README.md
 
-  ## 🎥 Screen Record
-
-
-https://github.com/user-attachments/assets/109a085b-e718-4c68-9d8f-ce7165ee5422
 
 
 

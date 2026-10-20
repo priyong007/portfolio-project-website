@@ -11,7 +11,7 @@ function Github() {
       <Row className="justify-content-center">
         <Col md="auto">
           <GitHubCalendar
-            username="ChaminduWn"
+            username="Priyongkar"
             blockSize={15}
             blockMargin={5}
             color="#c084f5"

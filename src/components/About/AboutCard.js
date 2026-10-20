@@ -8,10 +8,10 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Hello everyone! I am <span className="purple">Chamindu W.N</span> from{" "}
-            <span className="purple">Homagama, Sri Lanka</span>.
+            Hello everyone! I am <span className="purple">Priyongkar Chakma</span> from{" "}
+            <span className="purple">Dhaka, Bangladesh</span>.
             <br />
-            I am currently pursuing my BSc (Hons) in <span className="purple">Information Technology</span> at SLIIT.
+            I am Completed my BSc (Hons) in <span className="purple">Economics</span> from United International University.
             <br />
             <br />
             Apart from coding, I enjoy exploring various activities that keep me inspired and motivated:
@@ -31,7 +31,7 @@ function AboutCard() {
           <p style={{ color: "rgb(155 126 172)" }}>
             "Strive to build things that make a meaningful difference in the world!" 💡
           </p>
-          <footer className="blockquote-footer">Chamindu W.N</footer>
+          <footer className="blockquote-footer">Priyongkar Chakma</footer>
         </blockquote>
       </Card.Body>
     </Card>

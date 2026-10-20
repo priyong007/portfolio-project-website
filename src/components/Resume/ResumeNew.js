@@ -6,7 +6,7 @@ import { AiOutlineDownload } from "react-icons/ai";
 import "./Resume.css";
 
 function ResumeNew() {
-  const pdf = process.env.PUBLIC_URL + "/chamindu_cv.pdf";
+  const pdf = process.env.PUBLIC_URL + "/Priyongkar Chakma Resume.pptx.pdf";
 
   return (
     <div>
@@ -21,7 +21,7 @@ function ResumeNew() {
                 My <span className="purple">Professional CV</span>
               </h1>
               <p className="resume-subtitle">
-                Full-Stack Software Engineer | React • Next.js • Node.js • Spring Boot
+                Full-Stack Software Engineer | React • Next.js • Node.js
               </p>
             </Col>
           </Row>
@@ -51,19 +51,19 @@ function ResumeNew() {
             <Col md={3} className="resume-info-card">
               <div className="resume-info-content">
                 <h4 className="purple">📧 Email</h4>
-                <p>chaminduwn@gmail.com</p>
+                <p>priyong.chakma@gmail.com</p>
               </div>
             </Col>
             <Col md={3} className="resume-info-card">
               <div className="resume-info-content">
                 <h4 className="purple">📱 Phone</h4>
-                <p>+94 77 2328 901</p>
+                <p>+880151677043</p>
               </div>
             </Col>
             <Col md={3} className="resume-info-card">
               <div className="resume-info-content">
                 <h4 className="purple">🔗 Portfolio</h4>
-                <p>chamindu-wn.vercel.app</p>
+                <p>https://vercel.com/priyongkarchakma</p>
               </div>
             </Col>
           </Row>
@@ -75,10 +75,10 @@ function ResumeNew() {
                 Find me on:
               </p>
               <div className="social-links">
-                <a href="https://github.com/ChaminduWn" className="link-btn" target="_blank" rel="noopener noreferrer">
+                <a href="https://github.com/priyong007" className="link-btn" target="_blank" rel="noopener noreferrer">
                   GitHub
                 </a>
-                <a href="https://linkedin.com/in/chamindu-wn" className="link-btn" target="_blank" rel="noopener noreferrer">
+                <a href="https://www.linkedin.com/in/priyongkar-chakma/" className="link-btn" target="_blank" rel="noopener noreferrer">
                   LinkedIn
                 </a>
               </div>
